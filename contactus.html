@@ -112,10 +112,14 @@
                         <label for="telnum" class="col-md-2 col-form-label">Contact Tel.</label>
                         <div class="col-5 col-sm-4 col-md-3">
                             <div class="input-group">
-                                <div class="input-group-addon">(</div>
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">(</span>
+                                </div>
                                 <input type="tel" class="form-control" id="areacode" name="areacode"
                                     placeholder="Area Code">                                
-                                <div class="input-group-addon">)</div>
+                                <div class="input-group-append">
+                                    <span class="input-group-text">)</span>
+                                </div>
                             </div>
                         </div>
                         <div class="col-7 col-sm-6 col-md-7">
@@ -208,7 +212,9 @@
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!--
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
+    -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
